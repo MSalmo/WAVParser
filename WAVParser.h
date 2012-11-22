@@ -36,5 +36,6 @@ class WAVParser {
 		short getBlockAlign();
 		int getDataSize();
 		short getBitsPerSample();
+		void reset();
 		
 };

@@ -24,6 +24,7 @@ getByteRate	KEYWORD2
 getBlockAlign	KEYWORD2
 getDataSize	KEYWORD2
 getBitsPerSample	KEYWORD2
+reset	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)

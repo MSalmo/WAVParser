@@ -16,6 +16,7 @@ WAVParser::WavParser(char* fileName){
 	fmtChunk.BITSPERSAMP = 0;
 	
 	dataChunk.CHUNKSIZE = 0;
+	iterator = 0;
 	
 	chunkID = new char[4];
 	
@@ -120,3 +121,5 @@ int WAVParser::getDataSize(){
 short WAVParser::getBitsPerSample(){
 	return fmtChunk.BITSPERSAMP;
 } 
+
+int reset(){ iterator = 0; }
